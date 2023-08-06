@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>Quiz sur HTML, CSS et JavaScript</h1>
+        </header>
+        <main>
+            <section class="question-section">
+                <h2 id="question">
+                    <!-- Question ici -->
+                </h2>
+                <ul id="choices">
+                    <!-- Options de réponses ici -->
+                </ul>
+            </section>
+            <section class="result-section" style="display: none;">
+                <h2>Résultats</h2>
+                <p id="result"></p>
+            </section>
+            <button id="submit-button" onclick="submitAnswer()">Soumettre</button>
+        </main>
+        <footer>
+            <p>© 2023 Quiz.</p>
+        </footer>
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
